@@ -129,8 +129,12 @@ WebDriver driver;
 	}
 	
 	public String getCustomerId() {
+
 	    WaitUtil waitUtil = new WaitUtil(driver);
-	    return waitUtil.waitForElementVisible(customerId).getText();
+
+	    return waitUtil
+	            .waitForElementVisibleFluent(customerId)
+	            .getText();
 	}
 	
 }
