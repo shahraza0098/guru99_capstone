@@ -6,6 +6,8 @@ import java.util.NoSuchElementException;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -57,4 +59,27 @@ public class WaitUtil {
                         ? driver.findElement(locator)
                         : null);
     }
+    
+
+
+    public WebElement waitForElementClickableFluent(By locator) {
+
+        FluentWait<WebDriver> wait =
+                new FluentWait<>(driver)
+                        .withTimeout(Duration.ofSeconds(20))
+                        .pollingEvery(Duration.ofSeconds(2))
+                        .ignoring(NoSuchElementException.class)
+                        .ignoring(StaleElementReferenceException.class)
+                        .ignoring(ElementClickInterceptedException.class);
+
+        return wait.until(driver -> {
+
+            WebElement element = driver.findElement(locator);
+
+            return (element.isDisplayed() && element.isEnabled())
+                    ? element
+                    : null;
+        });
+    }
+    
 }

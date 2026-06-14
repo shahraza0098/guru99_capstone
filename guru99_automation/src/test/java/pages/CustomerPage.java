@@ -52,10 +52,16 @@ WebDriver driver;
 	 public void navigateToNewCustomer() {
 		    
 		    //
+//		    WaitUtil waitUtil = new WaitUtil(driver);
+//		  
+//		    WebElement button =
+//		            waitUtil.waitForElementClickable(newCustBtn);
+		 
+
 		    WaitUtil waitUtil = new WaitUtil(driver);
-		  
+
 		    WebElement button =
-		            waitUtil.waitForElementClickable(newCustBtn);
+		            waitUtil.waitForElementClickableFluent(newCustBtn);
 
 	
 		    JavascriptExecutor js = (JavascriptExecutor) driver;
