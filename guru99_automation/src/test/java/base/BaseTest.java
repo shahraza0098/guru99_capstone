@@ -31,9 +31,9 @@ public class BaseTest {
 
     protected void loginToApplication() {
 
-        loginPage.enterUsername("mngr662888");
+        loginPage.enterUsername("mngr662995");
 
-        loginPage.enterPassword("nezyzUm");
+        loginPage.enterPassword("Uzutynu");
         
        
 
