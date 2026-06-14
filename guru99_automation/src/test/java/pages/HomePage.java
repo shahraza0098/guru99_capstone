@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import utilities.WaitUtil;
+
 public class HomePage {
 
     WebDriver driver;
@@ -16,8 +18,9 @@ public class HomePage {
     }
 
     public boolean isManagerDisplayed() {
-
-        return driver.findElement(managerText)
-                     .isDisplayed();
+    	 WaitUtil waitUtil = new WaitUtil(driver);
+ 	    return waitUtil.waitForElementVisible(managerText).isDisplayed();
+        
+                     
     }
 }

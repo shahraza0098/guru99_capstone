@@ -34,8 +34,6 @@ public class BaseTest {
         loginPage.enterUsername("mngr662995");
 
         loginPage.enterPassword("Uzutynu");
-        
-       
 
         loginPage.clickLogin();
     }
