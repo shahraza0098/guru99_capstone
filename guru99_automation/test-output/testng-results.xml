@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="31" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-14T09:44:30 IST" name="Suite" finished-at="2026-06-14T09:46:39 IST" duration-ms="129327">
+    <groups>
+    </groups>
+    <test started-at="2026-06-14T09:44:30 IST" name="Login Module" finished-at="2026-06-14T09:45:05 IST" duration-ms="35112">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-14T09:44:30 IST" name="setup" finished-at="2026-06-14T09:44:39 IST" duration-ms="9728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-14T09:44:39 IST" name="accountSetup" finished-at="2026-06-14T09:44:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSetup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-14T09:44:40 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-14T09:44:52 IST" duration-ms="11301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr662531]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eguvenA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-14T09:44:52 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-14T09:44:54 IST" duration-ms="2417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidUser ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-14T09:44:54 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-14T09:45:00 IST" duration-ms="5676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eguvenA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-14T09:45:00 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-14T09:45:05 IST" duration-ms="4954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr662531]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-14T09:45:05 IST" name="tearDown" finished-at="2026-06-14T09:45:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Module -->
+    <test started-at="2026-06-14T09:45:05 IST" name="Customer Module" finished-at="2026-06-14T09:45:20 IST" duration-ms="14824">
+      <class name="tests.CustomerTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-14T09:45:05 IST" name="setup" finished-at="2026-06-14T09:45:08 IST" duration-ms="2265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-14T09:45:08 IST" name="initPages" finished-at="2026-06-14T09:45:08 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-14T09:45:08 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-14T09:45:14 IST" duration-ms="5717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shahid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01-01-1995]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jamshedpur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jamshedpur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jharkhand]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[831001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[shahid1@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2826]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[CREATED]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-14T09:45:14 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-14T09:45:17 IST" duration-ms="3445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02-02-1996]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ranchi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ranchi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jharkhand]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[834001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rakesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[17846]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[CREATED]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-14T09:45:17 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-14T09:45:19 IST" duration-ms="1509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pooja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16-11-1996]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9912345678]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[pooja@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-14T09:45:19 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-14T09:45:20 IST" duration-ms="1440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19-02-1995]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[600001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9945678123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-14T09:45:20 IST" name="tearDown" finished-at="2026-06-14T09:45:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CustomerTest -->
+    </test> <!-- Customer Module -->
+    <test started-at="2026-06-14T09:45:20 IST" name="Account Module" finished-at="2026-06-14T09:45:39 IST" duration-ms="19072">
+      <class name="tests.AccountTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:20 IST" name="setup" finished-at="2026-06-14T09:45:21 IST" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:21 IST" name="accountSetup" finished-at="2026-06-14T09:45:22 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSetup -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:22 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-14T09:45:29 IST" duration-ms="6784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33840.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Savings]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:29 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-14T09:45:31 IST" duration-ms="2300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11813.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Savings]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4500.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:31 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-14T09:45:33 IST" duration-ms="2226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33840.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Current]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:33 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-14T09:45:37 IST" duration-ms="3832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11813.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Current]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:37 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-14T09:45:38 IST" duration-ms="993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33840.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Savings]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:38 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-14T09:45:39 IST" duration-ms="1305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Current]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4890.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-14T09:45:39 IST" name="tearDown" finished-at="2026-06-14T09:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountTest -->
+    </test> <!-- Account Module -->
+    <test started-at="2026-06-14T09:45:40 IST" name="Deposit Module" finished-at="2026-06-14T09:45:51 IST" duration-ms="11615">
+      <class name="tests.DepositTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-14T09:45:40 IST" name="setup" finished-at="2026-06-14T09:45:41 IST" duration-ms="1069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-14T09:45:41 IST" name="accountSetup" finished-at="2026-06-14T09:45:41 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSetup -->
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-14T09:45:41 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-14T09:45:44 IST" duration-ms="2849" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing deposit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Application defect: HTTP ERROR 500 displayed after deposit expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Application defect: HTTP ERROR 500 displayed after deposit expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at tests.DepositTest.depositTest(DepositTest.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositTest -->
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-14T09:45:45 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-14T09:45:46 IST" duration-ms="1016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184028a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing deposit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositTest -->
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-14T09:45:46 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-14T09:45:48 IST" duration-ms="2063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gfdg66]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing deposit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositTest -->
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-14T09:45:48 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-14T09:45:51 IST" duration-ms="3559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing deposit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-14T09:45:51 IST" name="tearDown" finished-at="2026-06-14T09:45:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DepositTest -->
+    </test> <!-- Deposit Module -->
+    <test started-at="2026-06-14T09:45:51 IST" name="Withdrawal Module" finished-at="2026-06-14T09:46:10 IST" duration-ms="18623">
+      <class name="tests.WithdrawalTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:45:51 IST" name="setup" finished-at="2026-06-14T09:45:53 IST" duration-ms="1902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:45:53 IST" name="accountSetup" finished-at="2026-06-14T09:45:54 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSetup -->
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:45:54 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-14T09:45:57 IST" duration-ms="3765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withdrawal testing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawalTest -->
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:45:57 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-14T09:45:59 IST" duration-ms="1201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withdrawal testing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawalTest -->
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:45:59 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-14T09:46:01 IST" duration-ms="2269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[560000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withdrawal testing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawalTest -->
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:46:01 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-14T09:46:04 IST" duration-ms="3567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[122545.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withdrawal testing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawalTest -->
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:46:04 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-14T09:46:10 IST" duration-ms="5427" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-500.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withdrawal testing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[DEFECT: Application accepted withdrawal with negative amount: -500.0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: DEFECT: Application accepted withdrawal with negative amount: -500.0
+at org.testng.Assert.fail(Assert.java:111)
+at tests.WithdrawalTest.withdrawalTest(WithdrawalTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawalTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-14T09:46:10 IST" name="tearDown" finished-at="2026-06-14T09:46:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.WithdrawalTest -->
+    </test> <!-- Withdrawal Module -->
+    <test started-at="2026-06-14T09:46:10 IST" name="Fund Transfer Module" finished-at="2026-06-14T09:46:33 IST" duration-ms="23063">
+      <class name="tests.FundTransferTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:10 IST" name="setup" finished-at="2026-06-14T09:46:11 IST" duration-ms="551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:11 IST" name="accountSetup" finished-at="2026-06-14T09:46:12 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSetup -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:12 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:17 IST" duration-ms="4620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184028.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:17 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:19 IST" duration-ms="2426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184028.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184029.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:19 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:22 IST" duration-ms="3111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184029.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:22 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:24 IST" duration-ms="2079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[800.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:24 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:26 IST" duration-ms="2137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184029.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[890.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:26 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:27 IST" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184028.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[456.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:27 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:29 IST" duration-ms="1228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184029.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184028.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:29 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:30 IST" duration-ms="1441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184029.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184028.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[678.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:30 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-14T09:46:33 IST" duration-ms="2863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[184027.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[184028.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fund trasfer7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-14T09:46:33 IST" name="tearDown" finished-at="2026-06-14T09:46:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FundTransferTest -->
+    </test> <!-- Fund Transfer Module -->
+    <test started-at="2026-06-14T09:46:33 IST" name="Security Module" finished-at="2026-06-14T09:46:39 IST" duration-ms="5774">
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-14T09:46:33 IST" name="setup" finished-at="2026-06-14T09:46:36 IST" duration-ms="2488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logoutSetup()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-14T09:46:36 IST" name="logoutSetup" finished-at="2026-06-14T09:46:36 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSetup -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-14T09:46:36 IST" name="logoutTest" finished-at="2026-06-14T09:46:39 IST" duration-ms="2614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-14T09:46:39 IST" name="tearDown" finished-at="2026-06-14T09:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Security Module -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <parameter name="browser" value="chrome"/>
+<listeners>
+    <listener class-name="listeners.TestListener"/>
+</listeners>
+   <test name="Login Module">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Customer Module">
+        <classes>
+            <class name="tests.CustomerTest"/>
+        </classes>
+    </test>
+
+    <test name="Account Module">
+        <classes>
+            <class name="tests.AccountTest"/>
+        </classes>
+    </test>
+
+    <test name="Deposit Module">
+        <classes>
+            <class name="tests.DepositTest"/>
+        </classes>
+    </test>
+
+    <test name="Withdrawal Module">
+        <classes>
+            <class name="tests.WithdrawalTest"/>
+        </classes>
+    </test>
+
+    <test name="Fund Transfer Module">
+        <classes>
+            <class name="tests.FundTransferTest"/>
+        </classes>
+    </test>
+
+    
+
+    <test name="Security Module">
+        <classes>
+          
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
