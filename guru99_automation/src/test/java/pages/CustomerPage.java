@@ -51,7 +51,7 @@ WebDriver driver;
 	
 	 public void navigateToNewCustomer() {
 		    
-		    //
+
 //		    WaitUtil waitUtil = new WaitUtil(driver);
 //		  
 //		    WebElement button =

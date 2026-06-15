@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 import base.BaseTest;
 import pages.CustomerPage;
-import pages.LoginPage;
 import utilities.ExcelUtil;
 import utilities.WaitUtil;
 
@@ -27,7 +26,7 @@ public class CustomerTest extends BaseTest  {
 
 	    ExcelUtil excel =
 	        new ExcelUtil(
-	        "src/test/resources/testdata/CustomerData_Sample.xlsx",
+	        "src/test/resources/testdata/Guru99BankData.xlsx",
 	        "CustomerData");
 
 	    return excel.getSheetData();
@@ -80,23 +79,15 @@ public class CustomerTest extends BaseTest  {
 		    
 		    ExcelUtil excel =
 		            new ExcelUtil(
-		            "src/test/resources/testdata/CustomerId.xlsx",
-		            "CustomerID");
-		   
-//
-//		    int rowNumber =
-//		            excel.findRow(tcId);
-		  
+		            "src/test/resources/testdata/Guru99BankData.xlsx",
+		            "CustomerId");
+
 
 		    excel.setCellData(
 		            rowNumber,
 		            0,
 		            generatedCustomerId);
 
-//		    excel.setCellData(
-//		            rowNumber,
-//		            11,
-//		            "CREATED");
 		    
 		    rowNumber++;
 

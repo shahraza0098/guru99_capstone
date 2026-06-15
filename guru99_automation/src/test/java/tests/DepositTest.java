@@ -31,7 +31,7 @@ public class DepositTest extends BaseTest {
 
         ExcelUtil excel =
                 new ExcelUtil(
-                        "src/test/resources/testdata/DepositData.xlsx",
+                        "src/test/resources/testdata/Guru99BankData.xlsx",
                         "DepositData");
 
         return excel.getSheetData();

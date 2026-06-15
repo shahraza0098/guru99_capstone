@@ -32,7 +32,7 @@ public class WithdrawalTest extends BaseTest {
 
         ExcelUtil excel =
                 new ExcelUtil(
-                        "src/test/resources/testdata/WithdrawalData.xlsx",
+                        "src/test/resources/testdata/Guru99BankData.xlsx",
                         "WithdrawalData");
 
         return excel.getSheetData();

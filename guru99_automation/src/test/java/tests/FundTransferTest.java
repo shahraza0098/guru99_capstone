@@ -32,8 +32,8 @@ public class FundTransferTest extends BaseTest {
 
         ExcelUtil excel =
                 new ExcelUtil(
-                        "src/test/resources/testdata/FundTrafer.xlsx",
-                        "fundTransferData");
+                        "src/test/resources/testdata/Guru99BankData.xlsx",
+                        "FundTrafer");
 
         return excel.getSheetData();
     }

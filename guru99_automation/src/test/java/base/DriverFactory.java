@@ -1,43 +1,3 @@
-//package base;
-//
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.edge.EdgeDriver;
-//
-//public class DriverFactory {
-//
-//    private static WebDriver driver;
-//
-//    public static WebDriver initDriver() {
-//
-//        if(driver == null) {
-//
-//            driver = new ChromeDriver();
-//
-//            driver.manage().window().maximize();
-//        }
-//
-//        return driver;
-//    }
-//
-//    public static WebDriver getDriver() {
-//
-//        return driver;
-//    }
-//
-//    public static void quitDriver() {
-//
-//        if(driver != null) {
-//
-//            driver.quit();
-//
-//            driver = null;
-//        }
-//    }
-//}
-
-
-
 
 package base;
 
@@ -72,7 +32,7 @@ public class DriverFactory {
                     System.out.println("Creating Chrome Driver");
 
                     driver = new ChromeDriver(chromeOptions);
-//                  driver = new ChromeDriver(); // Use this for local execution
+//                  driver = new ChromeDriver(); 
 
                     break;
 
@@ -89,7 +49,7 @@ public class DriverFactory {
                     System.out.println("Creating Edge Driver");
 
                     driver = new EdgeDriver(edgeOptions);
-//                  driver = new EdgeDriver(); // Use this for local execution
+//                  driver = new EdgeDriver(); 
 
                     break;
 

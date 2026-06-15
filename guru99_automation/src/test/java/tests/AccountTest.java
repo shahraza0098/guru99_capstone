@@ -18,10 +18,6 @@ public class AccountTest extends BaseTest {
     @BeforeClass
     public void accountSetup() {
 
-//        loginToApplication(
-//                "mngr662531",
-//                "eguvenA");
-
         accountPage = new AccountPage(driver);
         loginToApplication(); 
     }
@@ -31,8 +27,8 @@ public class AccountTest extends BaseTest {
 
         ExcelUtil excel =
                 new ExcelUtil(
-                        "src/test/resources/testdata/NewAccount.xlsx",
-                        "accountData");
+                        "src/test/resources/testdata/Guru99BankData.xlsx",
+                        "NewAccount");
         return excel.getSheetData();
     }
 
@@ -60,7 +56,7 @@ public class AccountTest extends BaseTest {
               ExcelUtil excel =
                       new ExcelUtil(
                               "src/test/resources/testdata/AccountId.xlsx",
-                              "AccountID");
+                              "AccountId");
 
             
 

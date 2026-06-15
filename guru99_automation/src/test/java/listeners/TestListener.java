@@ -54,11 +54,11 @@ public class TestListener implements ITestListener {
 
         try {
 
-            Object currentClass =
-                    result.getInstance();
-
-            BaseTest base =
-                    (BaseTest) currentClass;
+//            Object currentClass =
+//                    result.getInstance();
+//
+//            BaseTest base =
+//                    (BaseTest) currentClass;
 
             String screenshotPath =
                     ScreenshotUtil.captureScreenshot(

@@ -7,7 +7,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
-import pages.DepositPage;
 import pages.HomePage;
 import pages.LoginPage;
 import utilities.ExcelUtil;
@@ -30,7 +29,7 @@ public class LoginTest extends BaseTest {
     public Object[][] getLoginData() {
 
         ExcelUtil excel = new ExcelUtil(
-                "src/test/resources/testdata/Guru99Data.xlsx",
+                "src/test/resources/testdata/Guru99BankData.xlsx",
                 "LoginData");
 
         return excel.getSheetData();
