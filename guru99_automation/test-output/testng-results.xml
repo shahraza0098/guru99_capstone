@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+<testng-results ignored="0" total="33" passed="29" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T11:46:33 IST" name="Suite" finished-at="2026-06-15T11:50:58 IST" duration-ms="264362">
+  <suite started-at="2026-06-16T11:20:30 IST" name="Suite" finished-at="2026-06-16T11:22:58 IST" duration-ms="147423">
     <groups>
     </groups>
-    <test started-at="2026-06-15T11:46:33 IST" name="Login Module" finished-at="2026-06-15T11:48:02 IST" duration-ms="88915">
+    <test started-at="2026-06-16T11:20:30 IST" name="Login Module" finished-at="2026-06-16T11:21:27 IST" duration-ms="56901">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-15T11:46:34 IST" name="setup" finished-at="2026-06-15T11:47:07 IST" duration-ms="33360" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-16T11:20:30 IST" name="setup" finished-at="2026-06-16T11:20:59 IST" duration-ms="28974" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-15T11:47:07 IST" name="accountSetup" finished-at="2026-06-15T11:47:07 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-16T11:20:59 IST" name="accountSetup" finished-at="2026-06-16T11:20:59 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountSetup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-15T11:47:08 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-15T11:47:36 IST" duration-ms="28278" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-16T11:21:01 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-16T11:21:12 IST" duration-ms="10937" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-15T11:47:36 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-15T11:47:42 IST" duration-ms="5225" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-16T11:21:12 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-16T11:21:18 IST" duration-ms="6055" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-15T11:47:42 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-15T11:47:53 IST" duration-ms="11106" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-16T11:21:18 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-16T11:21:23 IST" duration-ms="5030" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-15T11:47:53 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-15T11:48:02 IST" duration-ms="9577" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-16T11:21:23 IST" name="loginTest" data-provider="loginData" finished-at="2026-06-16T11:21:27 IST" duration-ms="4578" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,15 +106,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-15T11:48:02 IST" name="tearDown" finished-at="2026-06-15T11:48:02 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@536f2a7e]" started-at="2026-06-16T11:21:27 IST" name="tearDown" finished-at="2026-06-16T11:21:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
     </test> <!-- Login Module -->
-    <test started-at="2026-06-15T11:48:03 IST" name="Customer Module" finished-at="2026-06-15T11:48:31 IST" duration-ms="27727">
+    <test started-at="2026-06-16T11:21:28 IST" name="Customer Module" finished-at="2026-06-16T11:21:39 IST" duration-ms="11288">
       <class name="tests.CustomerTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-15T11:48:03 IST" name="setup" finished-at="2026-06-15T11:48:18 IST" duration-ms="14108" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-16T11:21:28 IST" name="setup" finished-at="2026-06-16T11:21:31 IST" duration-ms="3084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,11 +125,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-15T11:48:18 IST" name="initPages" finished-at="2026-06-15T11:48:20 IST" duration-ms="2040" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-16T11:21:31 IST" name="initPages" finished-at="2026-06-16T11:21:32 IST" duration-ms="799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-15T11:48:20 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-15T11:48:23 IST" duration-ms="3649" status="PASS">
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-16T11:21:32 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-16T11:21:37 IST" duration-ms="4600" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-15T11:48:23 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-15T11:48:27 IST" duration-ms="4190" status="PASS">
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-16T11:21:37 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-16T11:21:39 IST" duration-ms="2224" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -268,10 +268,77 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Customer ID']/following-sibling::td"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=//td[text()='Customer ID']/following-sibling::td, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Customer ID']/following-sibling::td"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=//td[text()='Customer ID']/following-sibling::td, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+at utilities.WaitUtil.lambda$0(WaitUtil.java:58)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at utilities.WaitUtil.waitForElementVisibleFluent(WaitUtil.java:57)
+at pages.CustomerPage.getCustomerId(CustomerPage.java:142)
+at tests.CustomerTest.addCustomerTest(CustomerTest.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-15T11:48:28 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-15T11:48:29 IST" duration-ms="1552" status="PASS">
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-16T11:21:39 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-16T11:21:39 IST" duration-ms="22" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -339,10 +406,77 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"New Customer"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=New Customer, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"New Customer"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=New Customer, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+at utilities.WaitUtil.lambda$1(WaitUtil.java:77)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at utilities.WaitUtil.waitForElementClickableFluent(WaitUtil.java:75)
+at pages.CustomerPage.navigateToNewCustomer(CustomerPage.java:64)
+at tests.CustomerTest.addCustomerTest(CustomerTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-15T11:48:29 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-15T11:48:31 IST" duration-ms="2055" status="PASS">
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-16T11:21:39 IST" name="addCustomerTest" data-provider="customerData" finished-at="2026-06-16T11:21:39 IST" duration-ms="20" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -410,18 +544,85 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"New Customer"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=New Customer, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"New Customer"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=New Customer, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+at utilities.WaitUtil.lambda$1(WaitUtil.java:77)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at utilities.WaitUtil.waitForElementClickableFluent(WaitUtil.java:75)
+at pages.CustomerPage.navigateToNewCustomer(CustomerPage.java:64)
+at tests.CustomerTest.addCustomerTest(CustomerTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-15T11:48:31 IST" name="tearDown" finished-at="2026-06-15T11:48:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerTest@69c81773]" started-at="2026-06-16T11:21:39 IST" name="tearDown" finished-at="2026-06-16T11:21:39 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CustomerTest -->
     </test> <!-- Customer Module -->
-    <test started-at="2026-06-15T11:48:31 IST" name="Account Module" finished-at="2026-06-15T11:48:56 IST" duration-ms="25104">
+    <test started-at="2026-06-16T11:21:39 IST" name="Account Module" finished-at="2026-06-16T11:21:55 IST" duration-ms="15826">
       <class name="tests.AccountTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:31 IST" name="setup" finished-at="2026-06-15T11:48:33 IST" duration-ms="1652" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:39 IST" name="setup" finished-at="2026-06-16T11:21:40 IST" duration-ms="1002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -432,11 +633,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:33 IST" name="accountSetup" finished-at="2026-06-15T11:48:36 IST" duration-ms="3244" status="PASS">
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:40 IST" name="accountSetup" finished-at="2026-06-16T11:21:41 IST" duration-ms="863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountSetup -->
-        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:36 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-15T11:48:39 IST" duration-ms="2894" status="PASS">
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:41 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-16T11:21:45 IST" duration-ms="3310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -462,7 +663,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:39 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-15T11:48:45 IST" duration-ms="6118" status="PASS">
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:45 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-16T11:21:48 IST" duration-ms="3788" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -488,7 +689,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:45 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-15T11:48:49 IST" duration-ms="3446" status="PASS">
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:48 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-16T11:21:50 IST" duration-ms="1833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -514,7 +715,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:49 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-15T11:48:53 IST" duration-ms="3945" status="PASS">
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:50 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-16T11:21:51 IST" duration-ms="717" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -537,10 +738,74 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Account ID']/following-sibling::td"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=//td[text()='Account ID']/following-sibling::td, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Account ID']/following-sibling::td"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=//td[text()='Account ID']/following-sibling::td, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+at pages.AccountPage.getAccountId(AccountPage.java:97)
+at tests.AccountTest.createAccountTest(AccountTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:53 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-15T11:48:54 IST" duration-ms="1428" status="PASS">
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:53 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-16T11:21:54 IST" duration-ms="1095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -566,7 +831,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:54 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-15T11:48:56 IST" duration-ms="2227" status="PASS">
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:54 IST" name="createAccountTest" data-provider="accountData" finished-at="2026-06-16T11:21:55 IST" duration-ms="1144" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -592,15 +857,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-15T11:48:56 IST" name="tearDown" finished-at="2026-06-15T11:48:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@4d15107f]" started-at="2026-06-16T11:21:55 IST" name="tearDown" finished-at="2026-06-16T11:21:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AccountTest -->
     </test> <!-- Account Module -->
-    <test started-at="2026-06-15T11:48:56 IST" name="Deposit Module" finished-at="2026-06-15T11:49:17 IST" duration-ms="21074">
+    <test started-at="2026-06-16T11:21:55 IST" name="Deposit Module" finished-at="2026-06-16T11:22:08 IST" duration-ms="12868">
       <class name="tests.DepositTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-15T11:48:56 IST" name="setup" finished-at="2026-06-15T11:49:01 IST" duration-ms="4629" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-16T11:21:55 IST" name="setup" finished-at="2026-06-16T11:21:57 IST" duration-ms="1852" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -611,11 +876,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-15T11:49:01 IST" name="accountSetup" finished-at="2026-06-15T11:49:04 IST" duration-ms="2720" status="PASS">
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-16T11:21:57 IST" name="accountSetup" finished-at="2026-06-16T11:22:00 IST" duration-ms="2951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountSetup -->
-        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-15T11:49:04 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-15T11:49:11 IST" duration-ms="7649" status="PASS">
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-16T11:22:00 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-16T11:22:03 IST" duration-ms="2335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -641,7 +906,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depositTest -->
-        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-15T11:49:11 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-15T11:49:14 IST" duration-ms="2421" status="PASS">
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-16T11:22:03 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-16T11:22:04 IST" duration-ms="1350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -667,7 +932,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depositTest -->
-        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-15T11:49:14 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-15T11:49:16 IST" duration-ms="1973" status="PASS">
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-16T11:22:04 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-16T11:22:06 IST" duration-ms="2215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -693,7 +958,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depositTest -->
-        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-15T11:49:16 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-15T11:49:17 IST" duration-ms="1595" status="PASS">
+        <test-method signature="depositTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-16T11:22:06 IST" name="depositTest" data-provider="depositData" finished-at="2026-06-16T11:22:08 IST" duration-ms="2070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -719,15 +984,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depositTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-15T11:49:17 IST" name="tearDown" finished-at="2026-06-15T11:49:17 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DepositTest@1a4927d6]" started-at="2026-06-16T11:22:08 IST" name="tearDown" finished-at="2026-06-16T11:22:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.DepositTest -->
     </test> <!-- Deposit Module -->
-    <test started-at="2026-06-15T11:49:17 IST" name="Withdrawal Module" finished-at="2026-06-15T11:50:00 IST" duration-ms="42041">
+    <test started-at="2026-06-16T11:22:08 IST" name="Withdrawal Module" finished-at="2026-06-16T11:22:25 IST" duration-ms="16984">
       <class name="tests.WithdrawalTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:49:17 IST" name="setup" finished-at="2026-06-15T11:49:19 IST" duration-ms="1535" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:08 IST" name="setup" finished-at="2026-06-16T11:22:10 IST" duration-ms="1647" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -738,11 +1003,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:49:19 IST" name="accountSetup" finished-at="2026-06-15T11:49:29 IST" duration-ms="9921" status="PASS">
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:10 IST" name="accountSetup" finished-at="2026-06-16T11:22:12 IST" duration-ms="1835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountSetup -->
-        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:49:29 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-15T11:49:33 IST" duration-ms="3912" status="PASS">
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:12 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-16T11:22:14 IST" duration-ms="2619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -768,7 +1033,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawalTest -->
-        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:49:33 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-15T11:49:34 IST" duration-ms="1577" status="PASS">
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:14 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-16T11:22:17 IST" duration-ms="2593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -794,7 +1059,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawalTest -->
-        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:49:34 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-15T11:49:37 IST" duration-ms="2386" status="PASS">
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:17 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-16T11:22:19 IST" duration-ms="1868" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -820,7 +1085,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawalTest -->
-        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:49:37 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-15T11:49:45 IST" duration-ms="8236" status="PASS">
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:19 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-16T11:22:23 IST" duration-ms="3725" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -846,7 +1111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawalTest -->
-        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:49:45 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-15T11:50:00 IST" duration-ms="14399" status="PASS">
+        <test-method signature="withdrawalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:23 IST" name="withdrawalTest" data-provider="withdrawalData" finished-at="2026-06-16T11:22:25 IST" duration-ms="2619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -872,15 +1137,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawalTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-15T11:50:00 IST" name="tearDown" finished-at="2026-06-15T11:50:00 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WithdrawalTest@6b09fb41]" started-at="2026-06-16T11:22:25 IST" name="tearDown" finished-at="2026-06-16T11:22:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.WithdrawalTest -->
     </test> <!-- Withdrawal Module -->
-    <test started-at="2026-06-15T11:50:00 IST" name="Fund Transfer Module" finished-at="2026-06-15T11:50:45 IST" duration-ms="45815">
+    <test started-at="2026-06-16T11:22:25 IST" name="Fund Transfer Module" finished-at="2026-06-16T11:22:51 IST" duration-ms="26015">
       <class name="tests.FundTransferTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:00 IST" name="setup" finished-at="2026-06-15T11:50:01 IST" duration-ms="1841" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:25 IST" name="setup" finished-at="2026-06-16T11:22:26 IST" duration-ms="1164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -891,11 +1156,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:01 IST" name="accountSetup" finished-at="2026-06-15T11:50:02 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:26 IST" name="accountSetup" finished-at="2026-06-16T11:22:29 IST" duration-ms="2081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountSetup -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:02 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:11 IST" duration-ms="9548" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:29 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:31 IST" duration-ms="2923" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -926,7 +1191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:11 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:15 IST" duration-ms="3604" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:31 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:35 IST" duration-ms="3637" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -957,7 +1222,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:15 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:19 IST" duration-ms="3651" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:35 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:38 IST" duration-ms="3332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -988,7 +1253,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:19 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:24 IST" duration-ms="5613" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:38 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:40 IST" duration-ms="1850" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1019,7 +1284,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:24 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:31 IST" duration-ms="7096" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:40 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:44 IST" duration-ms="3263" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1050,7 +1315,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:31 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:34 IST" duration-ms="2413" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:44 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:45 IST" duration-ms="1220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1081,7 +1346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:34 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:36 IST" duration-ms="2473" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:45 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:46 IST" duration-ms="1009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1112,7 +1377,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:36 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:39 IST" duration-ms="2605" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:46 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:48 IST" duration-ms="1863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1143,7 +1408,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:39 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-15T11:50:45 IST" duration-ms="6640" status="PASS">
+        <test-method signature="fundTransferTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:48 IST" name="fundTransferTest" data-provider="fundTransferData" finished-at="2026-06-16T11:22:51 IST" duration-ms="3567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1174,15 +1439,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTransferTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-15T11:50:45 IST" name="tearDown" finished-at="2026-06-15T11:50:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundTransferTest@821330f]" started-at="2026-06-16T11:22:51 IST" name="tearDown" finished-at="2026-06-16T11:22:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.FundTransferTest -->
     </test> <!-- Fund Transfer Module -->
-    <test started-at="2026-06-15T11:50:46 IST" name="Security Module" finished-at="2026-06-15T11:50:58 IST" duration-ms="12020">
+    <test started-at="2026-06-16T11:22:51 IST" name="Security Module" finished-at="2026-06-16T11:22:58 IST" duration-ms="6406">
       <class name="tests.LogoutTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-15T11:50:46 IST" name="setup" finished-at="2026-06-15T11:50:52 IST" duration-ms="6015" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-16T11:22:51 IST" name="setup" finished-at="2026-06-16T11:22:54 IST" duration-ms="2338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1193,15 +1458,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="logoutSetup()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-15T11:50:52 IST" name="logoutSetup" finished-at="2026-06-15T11:50:55 IST" duration-ms="3047" status="PASS">
+        <test-method is-config="true" signature="logoutSetup()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-16T11:22:54 IST" name="logoutSetup" finished-at="2026-06-16T11:22:56 IST" duration-ms="2565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutSetup -->
-        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-15T11:50:55 IST" name="logoutTest" finished-at="2026-06-15T11:50:58 IST" duration-ms="2940" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-16T11:22:56 IST" name="logoutTest" finished-at="2026-06-16T11:22:58 IST" duration-ms="1491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-15T11:50:58 IST" name="tearDown" finished-at="2026-06-15T11:50:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@1be2019a]" started-at="2026-06-16T11:22:58 IST" name="tearDown" finished-at="2026-06-16T11:22:58 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

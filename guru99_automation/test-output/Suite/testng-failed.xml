@@ -5,28 +5,28 @@
   <listeners>
     <listener class-name="listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Deposit Module(failed)">
+  <test thread-count="5" name="Customer Module(failed)">
     <classes>
-      <class name="tests.DepositTest">
-        <methods>
-          <include name="accountSetup"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="depositTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.DepositTest -->
-    </classes>
-  </test> <!-- Deposit Module(failed) -->
-  <test thread-count="5" name="Withdrawal Module(failed)">
-    <classes>
-      <class name="tests.WithdrawalTest">
+      <class name="tests.CustomerTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="withdrawalTest" invocation-numbers="4"/>
+          <include name="initPages"/>
+          <include name="addCustomerTest" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- tests.CustomerTest -->
+    </classes>
+  </test> <!-- Customer Module(failed) -->
+  <test thread-count="5" name="Account Module(failed)">
+    <classes>
+      <class name="tests.AccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createAccountTest" invocation-numbers="3"/>
           <include name="accountSetup"/>
         </methods>
-      </class> <!-- tests.WithdrawalTest -->
+      </class> <!-- tests.AccountTest -->
     </classes>
-  </test> <!-- Withdrawal Module(failed) -->
+  </test> <!-- Account Module(failed) -->
 </suite> <!-- Failed suite [Suite] -->

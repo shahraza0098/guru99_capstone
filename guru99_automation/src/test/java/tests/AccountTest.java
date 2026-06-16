@@ -55,7 +55,7 @@ public class AccountTest extends BaseTest {
 
               ExcelUtil excel =
                       new ExcelUtil(
-                              "src/test/resources/testdata/AccountId.xlsx",
+                              "src/test/resources/testdata/Guru99BankData.xlsx",
                               "AccountId");
 
             

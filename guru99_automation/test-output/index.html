@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">33 methods,   33 passed</span>
+                    <span class="method-stats">33 methods, 4 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...)">addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...)">addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...)">addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(5792.0, Current, 15000.0, valid)">createAccountTest(5792.0, Current, 15000.0, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,31 +137,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.CustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...)">addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.CustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...)">addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.CustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...)">addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(9660.0, Savings, 28000.0, valid)">createAccountTest(9660.0, Savings, 28000.0, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(9660.0, Savings, , invalid)">createAccountTest(9660.0, Savings, , invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(5792.0, Savings, 4500.0, valid)">createAccountTest(5792.0, Savings, 4500.0, valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -143,17 +147,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(5792.0, Current, 15000.0, valid)">createAccountTest(5792.0, Current, 15000.0, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(9660.0, Savings, , invalid)">createAccountTest(9660.0, Savings, , invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(9660.0, Savings, 28000.0, valid)">createAccountTest(9660.0, Savings, 28000.0, valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.AccountTest" class="method navigator-link" hash-for-method="createAccountTest(, Current, 4890.0, invalid)">createAccountTest(, Current, 4890.0, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.DepositTest" class="method navigator-link" hash-for-method="depositTest(184028a, 6000.0, testing deposit, invalid)">depositTest(184028a, 6000.0, testing deposit, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -173,6 +177,41 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DepositTest" class="method navigator-link" hash-for-method="depositTest(184028a, 6000.0, testing deposit, invalid)">depositTest(184028a, 6000.0, testing deposit, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid)">fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid)">fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid)">fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid)">fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid)">fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid)">fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184458.0, 184458.0, 800.0, fund trasfer4, invalid)">fundTransferTest(184458.0, 184458.0, 800.0, fund trasfer4, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -183,37 +222,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid)">fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid)">fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid)">fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid)">fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid)">fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184459.0, 184460.0, 100.0, fund trasfer2, valid)">fundTransferTest(184459.0, 184460.0, 100.0, fund trasfer2, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.FundTransferTest" class="method navigator-link" hash-for-method="fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid)">fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -223,12 +232,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(, eguvenA, invalid)">loginTest(, eguvenA, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(mngr662531, , invalid)">loginTest(mngr662531, , invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(mngr662531, , invalid)">loginTest(mngr662531, , invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(, eguvenA, invalid)">loginTest(, eguvenA, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -243,17 +252,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(184459.0, -500.0, withdrawal testing, invalid)">withdrawalTest(184459.0, -500.0, withdrawal testing, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(122545.0, 500.0, withdrawal testing, invalid)">withdrawalTest(122545.0, 500.0, withdrawal testing, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(184459.0, , withdrawal testing, invalid)">withdrawalTest(184459.0, , withdrawal testing, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid)">withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -263,7 +262,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid)">withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(184459.0, , withdrawal testing, invalid)">withdrawalTest(184459.0, , withdrawal testing, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(122545.0, 500.0, withdrawal testing, invalid)">withdrawalTest(122545.0, 500.0, withdrawal testing, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.WithdrawalTest" class="method navigator-link" hash-for-method="withdrawalTest(184459.0, -500.0, withdrawal testing, invalid)">withdrawalTest(184459.0, -500.0, withdrawal testing, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -278,6 +287,163 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...)">
+                  </a> <!-- addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(TC004,Deepak,19-02-1995,Coimbatore,Coimbatore,Tamil Nadu,600001,9945678123,,test123,,,invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;New Customer&quot;}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=New Customer, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at utilities.WaitUtil.lambda$1(WaitUtil.java:77)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at utilities.WaitUtil.waitForElementClickableFluent(WaitUtil.java:75)
+	at pages.CustomerPage.navigateToNewCustomer(CustomerPage.java:64)
+	at tests.CustomerTest.addCustomerTest(CustomerTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...)">
+                  </a> <!-- addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(TC003,Pooja,16-11-1996,Pune,Pune,Maharashtra,,9912345678,pooja@gmail.com,test123,,,invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;New Customer&quot;}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=New Customer, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at utilities.WaitUtil.lambda$1(WaitUtil.java:77)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at utilities.WaitUtil.waitForElementClickableFluent(WaitUtil.java:75)
+	at pages.CustomerPage.navigateToNewCustomer(CustomerPage.java:64)
+	at tests.CustomerTest.addCustomerTest(CustomerTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...)">
+                  </a> <!-- addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(TC002,Rakesh,02-02-1996,Ranchi,Ranchi,Jharkhand,834001,9999999999,rakesh@gmail.com,test123,,,valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;Customer ID&apos;]/following-sibling::td&quot;}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=//td[text()=&apos;Customer ID&apos;]/following-sibling::td, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at utilities.WaitUtil.lambda$0(WaitUtil.java:58)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at utilities.WaitUtil.waitForElementVisibleFluent(WaitUtil.java:57)
+	at pages.CustomerPage.getCustomerId(CustomerPage.java:142)
+	at tests.CustomerTest.addCustomerTest(CustomerTest.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountTest(5792.0, Current, 15000.0, valid)">
+                  </a> <!-- createAccountTest(5792.0, Current, 15000.0, valid) -->
+                  <span class="method-name">createAccountTest</span>
+                  <span class="parameters">(5792.0,Current,15000.0,valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;Account ID&apos;]/following-sibling::td&quot;}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8483af4898442c9ef5c98d32e44463e0, findElement {value=//td[text()=&apos;Account ID&apos;]/following-sibling::td, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\shahr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 6964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8483af4898442c9ef5c98d32e44463e0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at pages.AccountPage.getAccountId(AccountPage.java:97)
+	at tests.AccountTest.createAccountTest(AccountTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -290,30 +456,6 @@
                   </a> <!-- addCustomerTest(TC001, Shahid, 01-01-1995, Jamshedpur, Jamshedpur, Jharkhand, 831001, 9876543210, shahid1@gmail.com,...) -->
                   <span class="method-name">addCustomerTest</span>
                   <span class="parameters">(TC001,Shahid,01-01-1995,Jamshedpur,Jamshedpur,Jharkhand,831001,9876543210,shahid1@gmail.com,test123,,,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...)">
-                  </a> <!-- addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...) -->
-                  <span class="method-name">addCustomerTest</span>
-                  <span class="parameters">(TC003,Pooja,16-11-1996,Pune,Pune,Maharashtra,,9912345678,pooja@gmail.com,test123,,,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...)">
-                  </a> <!-- addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...) -->
-                  <span class="method-name">addCustomerTest</span>
-                  <span class="parameters">(TC004,Deepak,19-02-1995,Coimbatore,Coimbatore,Tamil Nadu,600001,9945678123,,test123,,,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...)">
-                  </a> <!-- addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...) -->
-                  <span class="method-name">addCustomerTest</span>
-                  <span class="parameters">(TC002,Rakesh,02-02-1996,Ranchi,Ranchi,Jharkhand,834001,9999999999,rakesh@gmail.com,test123,,,valid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -334,18 +476,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(, eguvenA, invalid)">
-                  </a> <!-- loginTest(, eguvenA, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(,eguvenA,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="loginTest(mngr662531, , invalid)">
                   </a> <!-- loginTest(mngr662531, , invalid) -->
                   <span class="method-name">loginTest</span>
                   <span class="parameters">(mngr662531,,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, eguvenA, invalid)">
+                  </a> <!-- loginTest(, eguvenA, invalid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,eguvenA,invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -364,14 +506,6 @@
               <span class="class-name">tests.DepositTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="depositTest(184028a, 6000.0, testing deposit, invalid)">
-                  </a> <!-- depositTest(184028a, 6000.0, testing deposit, invalid) -->
-                  <span class="method-name">depositTest</span>
-                  <span class="parameters">(184028a,6000.0,testing deposit,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="depositTest(184459.0, gfdg66, testing deposit, invalid)">
@@ -396,6 +530,14 @@
                   <span class="parameters">(184459.0,24000.0,testing deposit,valid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositTest(184028a, 6000.0, testing deposit, invalid)">
+                  </a> <!-- depositTest(184028a, 6000.0, testing deposit, invalid) -->
+                  <span class="method-name">depositTest</span>
+                  <span class="parameters">(184028a,6000.0,testing deposit,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
@@ -406,26 +548,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="withdrawalTest(184459.0, -500.0, withdrawal testing, invalid)">
-                  </a> <!-- withdrawalTest(184459.0, -500.0, withdrawal testing, invalid) -->
+                  <a name="withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid)">
+                  </a> <!-- withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid) -->
                   <span class="method-name">withdrawalTest</span>
-                  <span class="parameters">(184459.0,-500.0,withdrawal testing,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="withdrawalTest(122545.0, 500.0, withdrawal testing, invalid)">
-                  </a> <!-- withdrawalTest(122545.0, 500.0, withdrawal testing, invalid) -->
-                  <span class="method-name">withdrawalTest</span>
-                  <span class="parameters">(122545.0,500.0,withdrawal testing,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="withdrawalTest(184459.0, , withdrawal testing, invalid)">
-                  </a> <!-- withdrawalTest(184459.0, , withdrawal testing, invalid) -->
-                  <span class="method-name">withdrawalTest</span>
-                  <span class="parameters">(184459.0,,withdrawal testing,invalid)</span>
+                  <span class="parameters">(184459.0,560000.0,withdrawal testing,invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -438,10 +564,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid)">
-                  </a> <!-- withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid) -->
+                  <a name="withdrawalTest(184459.0, , withdrawal testing, invalid)">
+                  </a> <!-- withdrawalTest(184459.0, , withdrawal testing, invalid) -->
                   <span class="method-name">withdrawalTest</span>
-                  <span class="parameters">(184459.0,560000.0,withdrawal testing,invalid)</span>
+                  <span class="parameters">(184459.0,,withdrawal testing,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawalTest(122545.0, 500.0, withdrawal testing, invalid)">
+                  </a> <!-- withdrawalTest(122545.0, 500.0, withdrawal testing, invalid) -->
+                  <span class="method-name">withdrawalTest</span>
+                  <span class="parameters">(122545.0,500.0,withdrawal testing,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawalTest(184459.0, -500.0, withdrawal testing, invalid)">
+                  </a> <!-- withdrawalTest(184459.0, -500.0, withdrawal testing, invalid) -->
+                  <span class="method-name">withdrawalTest</span>
+                  <span class="parameters">(184459.0,-500.0,withdrawal testing,invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -469,6 +611,54 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid)">
+                  </a> <!-- fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid) -->
+                  <span class="method-name">fundTransferTest</span>
+                  <span class="parameters">(184458.0,184459.0,120000.0,fund trasfer7,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid)">
+                  </a> <!-- fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid) -->
+                  <span class="method-name">fundTransferTest</span>
+                  <span class="parameters">(184460.0,184458.0,20.0,fund trasfer3,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid)">
+                  </a> <!-- fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid) -->
+                  <span class="method-name">fundTransferTest</span>
+                  <span class="parameters">(184460.0,,890.0,fund trasfer4,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid)">
+                  </a> <!-- fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid) -->
+                  <span class="method-name">fundTransferTest</span>
+                  <span class="parameters">(,184459.0,456.0,fund trasfer5,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid)">
+                  </a> <!-- fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid) -->
+                  <span class="method-name">fundTransferTest</span>
+                  <span class="parameters">(184458.0,184459.0,50.0,fund trasfer1,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid)">
+                  </a> <!-- fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid) -->
+                  <span class="method-name">fundTransferTest</span>
+                  <span class="parameters">(184460.0,184459.0,,fund trasfer6,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="fundTransferTest(184458.0, 184458.0, 800.0, fund trasfer4, invalid)">
                   </a> <!-- fundTransferTest(184458.0, 184458.0, 800.0, fund trasfer4, invalid) -->
                   <span class="method-name">fundTransferTest</span>
@@ -485,58 +675,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid)">
-                  </a> <!-- fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid) -->
-                  <span class="method-name">fundTransferTest</span>
-                  <span class="parameters">(184458.0,184459.0,120000.0,fund trasfer7,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid)">
-                  </a> <!-- fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid) -->
-                  <span class="method-name">fundTransferTest</span>
-                  <span class="parameters">(184458.0,184459.0,50.0,fund trasfer1,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid)">
-                  </a> <!-- fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid) -->
-                  <span class="method-name">fundTransferTest</span>
-                  <span class="parameters">(184460.0,184458.0,20.0,fund trasfer3,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid)">
-                  </a> <!-- fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid) -->
-                  <span class="method-name">fundTransferTest</span>
-                  <span class="parameters">(,184459.0,456.0,fund trasfer5,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid)">
-                  </a> <!-- fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid) -->
-                  <span class="method-name">fundTransferTest</span>
-                  <span class="parameters">(184460.0,,890.0,fund trasfer4,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="fundTransferTest(184459.0, 184460.0, 100.0, fund trasfer2, valid)">
                   </a> <!-- fundTransferTest(184459.0, 184460.0, 100.0, fund trasfer2, valid) -->
                   <span class="method-name">fundTransferTest</span>
                   <span class="parameters">(184459.0,184460.0,100.0,fund trasfer2,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid)">
-                  </a> <!-- fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid) -->
-                  <span class="method-name">fundTransferTest</span>
-                  <span class="parameters">(184460.0,184459.0,,fund trasfer6,invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -547,22 +689,6 @@
               <span class="class-name">tests.AccountTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createAccountTest(9660.0, Savings, 28000.0, valid)">
-                  </a> <!-- createAccountTest(9660.0, Savings, 28000.0, valid) -->
-                  <span class="method-name">createAccountTest</span>
-                  <span class="parameters">(9660.0,Savings,28000.0,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createAccountTest(9660.0, Savings, , invalid)">
-                  </a> <!-- createAccountTest(9660.0, Savings, , invalid) -->
-                  <span class="method-name">createAccountTest</span>
-                  <span class="parameters">(9660.0,Savings,,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="createAccountTest(5792.0, Savings, 4500.0, valid)">
@@ -581,10 +707,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="createAccountTest(5792.0, Current, 15000.0, valid)">
-                  </a> <!-- createAccountTest(5792.0, Current, 15000.0, valid) -->
+                  <a name="createAccountTest(9660.0, Savings, , invalid)">
+                  </a> <!-- createAccountTest(9660.0, Savings, , invalid) -->
                   <span class="method-name">createAccountTest</span>
-                  <span class="parameters">(5792.0,Current,15000.0,valid)</span>
+                  <span class="parameters">(9660.0,Savings,,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountTest(9660.0, Savings, 28000.0, valid)">
+                  </a> <!-- createAccountTest(9660.0, Savings, 28000.0, valid) -->
+                  <span class="method-name">createAccountTest</span>
+                  <span class="parameters">(9660.0,Savings,28000.0,valid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -705,140 +839,140 @@ data.addRows(33);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 28278);
+data.setCell(0, 3, 10937);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'withdrawalTest')
-data.setCell(1, 2, 'tests.WithdrawalTest')
-data.setCell(1, 3, 14399);
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'tests.LoginTest')
+data.setCell(1, 3, 6055);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginTest')
 data.setCell(2, 2, 'tests.LoginTest')
-data.setCell(2, 3, 11106);
+data.setCell(2, 3, 5030);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest')
-data.setCell(3, 2, 'tests.LoginTest')
-data.setCell(3, 3, 9577);
+data.setCell(3, 1, 'addCustomerTest')
+data.setCell(3, 2, 'tests.CustomerTest')
+data.setCell(3, 3, 4600);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'fundTransferTest')
-data.setCell(4, 2, 'tests.FundTransferTest')
-data.setCell(4, 3, 9548);
+data.setCell(4, 1, 'loginTest')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 4578);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'withdrawalTest')
-data.setCell(5, 2, 'tests.WithdrawalTest')
-data.setCell(5, 3, 8236);
+data.setCell(5, 1, 'createAccountTest')
+data.setCell(5, 2, 'tests.AccountTest')
+data.setCell(5, 3, 3788);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'depositTest')
-data.setCell(6, 2, 'tests.DepositTest')
-data.setCell(6, 3, 7649);
+data.setCell(6, 1, 'withdrawalTest')
+data.setCell(6, 2, 'tests.WithdrawalTest')
+data.setCell(6, 3, 3725);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'fundTransferTest')
 data.setCell(7, 2, 'tests.FundTransferTest')
-data.setCell(7, 3, 7096);
+data.setCell(7, 3, 3637);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'fundTransferTest')
 data.setCell(8, 2, 'tests.FundTransferTest')
-data.setCell(8, 3, 6640);
+data.setCell(8, 3, 3567);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'createAccountTest')
-data.setCell(9, 2, 'tests.AccountTest')
-data.setCell(9, 3, 6118);
+data.setCell(9, 1, 'fundTransferTest')
+data.setCell(9, 2, 'tests.FundTransferTest')
+data.setCell(9, 3, 3332);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'fundTransferTest')
-data.setCell(10, 2, 'tests.FundTransferTest')
-data.setCell(10, 3, 5613);
+data.setCell(10, 1, 'createAccountTest')
+data.setCell(10, 2, 'tests.AccountTest')
+data.setCell(10, 3, 3310);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'loginTest')
-data.setCell(11, 2, 'tests.LoginTest')
-data.setCell(11, 3, 5225);
+data.setCell(11, 1, 'fundTransferTest')
+data.setCell(11, 2, 'tests.FundTransferTest')
+data.setCell(11, 3, 3263);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'addCustomerTest')
-data.setCell(12, 2, 'tests.CustomerTest')
-data.setCell(12, 3, 4190);
+data.setCell(12, 1, 'fundTransferTest')
+data.setCell(12, 2, 'tests.FundTransferTest')
+data.setCell(12, 3, 2923);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'createAccountTest')
-data.setCell(13, 2, 'tests.AccountTest')
-data.setCell(13, 3, 3945);
+data.setCell(13, 1, 'withdrawalTest')
+data.setCell(13, 2, 'tests.WithdrawalTest')
+data.setCell(13, 3, 2619);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'withdrawalTest')
 data.setCell(14, 2, 'tests.WithdrawalTest')
-data.setCell(14, 3, 3912);
+data.setCell(14, 3, 2619);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'fundTransferTest')
-data.setCell(15, 2, 'tests.FundTransferTest')
-data.setCell(15, 3, 3651);
+data.setCell(15, 1, 'withdrawalTest')
+data.setCell(15, 2, 'tests.WithdrawalTest')
+data.setCell(15, 3, 2593);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'addCustomerTest')
-data.setCell(16, 2, 'tests.CustomerTest')
-data.setCell(16, 3, 3649);
+data.setCell(16, 1, 'depositTest')
+data.setCell(16, 2, 'tests.DepositTest')
+data.setCell(16, 3, 2335);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'fundTransferTest')
-data.setCell(17, 2, 'tests.FundTransferTest')
-data.setCell(17, 3, 3604);
+data.setCell(17, 1, 'addCustomerTest')
+data.setCell(17, 2, 'tests.CustomerTest')
+data.setCell(17, 3, 2224);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'createAccountTest')
-data.setCell(18, 2, 'tests.AccountTest')
-data.setCell(18, 3, 3446);
+data.setCell(18, 1, 'depositTest')
+data.setCell(18, 2, 'tests.DepositTest')
+data.setCell(18, 3, 2215);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'logoutTest')
-data.setCell(19, 2, 'tests.LogoutTest')
-data.setCell(19, 3, 2940);
+data.setCell(19, 1, 'depositTest')
+data.setCell(19, 2, 'tests.DepositTest')
+data.setCell(19, 3, 2070);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'createAccountTest')
-data.setCell(20, 2, 'tests.AccountTest')
-data.setCell(20, 3, 2894);
+data.setCell(20, 1, 'withdrawalTest')
+data.setCell(20, 2, 'tests.WithdrawalTest')
+data.setCell(20, 3, 1868);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'fundTransferTest')
 data.setCell(21, 2, 'tests.FundTransferTest')
-data.setCell(21, 3, 2605);
+data.setCell(21, 3, 1863);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'fundTransferTest')
 data.setCell(22, 2, 'tests.FundTransferTest')
-data.setCell(22, 3, 2473);
+data.setCell(22, 3, 1850);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'depositTest')
-data.setCell(23, 2, 'tests.DepositTest')
-data.setCell(23, 3, 2421);
+data.setCell(23, 1, 'createAccountTest')
+data.setCell(23, 2, 'tests.AccountTest')
+data.setCell(23, 3, 1833);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'fundTransferTest')
-data.setCell(24, 2, 'tests.FundTransferTest')
-data.setCell(24, 3, 2413);
+data.setCell(24, 1, 'logoutTest')
+data.setCell(24, 2, 'tests.LogoutTest')
+data.setCell(24, 3, 1491);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'withdrawalTest')
-data.setCell(25, 2, 'tests.WithdrawalTest')
-data.setCell(25, 3, 2386);
+data.setCell(25, 1, 'depositTest')
+data.setCell(25, 2, 'tests.DepositTest')
+data.setCell(25, 3, 1350);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'createAccountTest')
-data.setCell(26, 2, 'tests.AccountTest')
-data.setCell(26, 3, 2227);
+data.setCell(26, 1, 'fundTransferTest')
+data.setCell(26, 2, 'tests.FundTransferTest')
+data.setCell(26, 3, 1220);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'addCustomerTest')
-data.setCell(27, 2, 'tests.CustomerTest')
-data.setCell(27, 3, 2055);
+data.setCell(27, 1, 'createAccountTest')
+data.setCell(27, 2, 'tests.AccountTest')
+data.setCell(27, 3, 1144);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'depositTest')
-data.setCell(28, 2, 'tests.DepositTest')
-data.setCell(28, 3, 1973);
+data.setCell(28, 1, 'createAccountTest')
+data.setCell(28, 2, 'tests.AccountTest')
+data.setCell(28, 3, 1095);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'depositTest')
-data.setCell(29, 2, 'tests.DepositTest')
-data.setCell(29, 3, 1595);
+data.setCell(29, 1, 'fundTransferTest')
+data.setCell(29, 2, 'tests.FundTransferTest')
+data.setCell(29, 3, 1009);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'withdrawalTest')
-data.setCell(30, 2, 'tests.WithdrawalTest')
-data.setCell(30, 3, 1577);
+data.setCell(30, 1, 'createAccountTest')
+data.setCell(30, 2, 'tests.AccountTest')
+data.setCell(30, 3, 717);
 data.setCell(31, 0, 31)
 data.setCell(31, 1, 'addCustomerTest')
 data.setCell(31, 2, 'tests.CustomerTest')
-data.setCell(31, 3, 1552);
+data.setCell(31, 3, 22);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'createAccountTest')
-data.setCell(32, 2, 'tests.AccountTest')
-data.setCell(32, 3, 1428);
+data.setCell(32, 1, 'addCustomerTest')
+data.setCell(32, 2, 'tests.CustomerTest')
+data.setCell(32, 3, 20);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -871,233 +1005,241 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">accountSetup</span>
-                <span class="method-start">33362 ms</span>
+                <span class="method-start">28975 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest(mngr662531, eguvenA, valid)</span>
-                <span class="method-start">34636 ms</span>
+                <span class="method-start">30173 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest(invalidUser , wrongPass, invalid)</span>
-                <span class="method-start">62924 ms</span>
+                <span class="method-start">41122 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest(, eguvenA, invalid)</span>
-                <span class="method-start">68163 ms</span>
+                <span class="method-start">47184 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest(mngr662531, , invalid)</span>
-                <span class="method-start">79275 ms</span>
+                <span class="method-start">52226 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">88864 ms</span>
+                <span class="method-start">56816 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.CustomerTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">89904 ms</span>
+                <span class="method-start">57516 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initPages</span>
-                <span class="method-start">104012 ms</span>
+                <span class="method-start">60600 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addCustomerTest(TC001, Shahid, 01-01-1995, Jamshedpur, Jamshedpur, Jharkhand, 831001, 9876543210, shahid1@gmail.com,...)</span>
-                <span class="method-start">106139 ms</span>
+                <span class="method-start">61513 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addCustomerTest(TC002, Rakesh, 02-02-1996, Ranchi, Ranchi, Jharkhand, 834001, 9999999999, rakesh@gmail.com, test123,...)</span>
-                <span class="method-start">109804 ms</span>
+                <span class="method-start">66127 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addCustomerTest(TC003, Pooja, 16-11-1996, Pune, Pune, Maharashtra, , 9912345678, pooja@gmail.com, test123, , , inval...)</span>
-                <span class="method-start">114009 ms</span>
+                <span class="method-start">68687 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addCustomerTest(TC004, Deepak, 19-02-1995, Coimbatore, Coimbatore, Tamil Nadu, 600001, 9945678123, , test123, , , in...)</span>
-                <span class="method-start">115567 ms</span>
+                <span class="method-start">68747 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">117627 ms</span>
+                <span class="method-start">68796 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.AccountTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">117687 ms</span>
+                <span class="method-start">68908 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">accountSetup</span>
-                <span class="method-start">119339 ms</span>
+                <span class="method-start">69910 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createAccountTest(9660.0, Savings, 28000.0, valid)</span>
-                <span class="method-start">122682 ms</span>
+                <span class="method-start">70885 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createAccountTest(5792.0, Savings, 4500.0, valid)</span>
-                <span class="method-start">125585 ms</span>
+                <span class="method-start">74200 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createAccountTest(9660.0, Current, 12000.0, valid)</span>
-                <span class="method-start">131711 ms</span>
+                <span class="method-start">77992 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">createAccountTest(5792.0, Current, 15000.0, valid)</span>
-                <span class="method-start">135162 ms</span>
+                <span class="method-start">79828 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createAccountTest(9660.0, Savings, , invalid)</span>
-                <span class="method-start">139122 ms</span>
+                <span class="method-start">82483 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createAccountTest(, Current, 4890.0, invalid)</span>
-                <span class="method-start">140554 ms</span>
+                <span class="method-start">83581 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">142785 ms</span>
+                <span class="method-start">84729 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DepositTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">142866 ms</span>
+                <span class="method-start">84915 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">accountSetup</span>
-                <span class="method-start">147495 ms</span>
+                <span class="method-start">86767 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">depositTest(184459.0, 24000.0, testing deposit, valid)</span>
-                <span class="method-start">150277 ms</span>
+                <span class="method-start">89792 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">depositTest(184028a, 6000.0, testing deposit, invalid)</span>
-                <span class="method-start">157935 ms</span>
+                <span class="method-start">92130 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">depositTest(184459.0, gfdg66, testing deposit, invalid)</span>
-                <span class="method-start">160359 ms</span>
+                <span class="method-start">93482 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">depositTest(, 6000.0, testing deposit, invalid)</span>
-                <span class="method-start">162335 ms</span>
+                <span class="method-start">95701 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">163934 ms</span>
+                <span class="method-start">97778 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.WithdrawalTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">163998 ms</span>
+                <span class="method-start">97838 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">accountSetup</span>
-                <span class="method-start">165533 ms</span>
+                <span class="method-start">99485 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">withdrawalTest(184459.0, 100.0, withdrawal testing, valid)</span>
-                <span class="method-start">175493 ms</span>
+                <span class="method-start">101374 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">withdrawalTest(184459.0, , withdrawal testing, invalid)</span>
-                <span class="method-start">179407 ms</span>
+                <span class="method-start">103995 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">withdrawalTest(184459.0, 560000.0, withdrawal testing, invalid)</span>
-                <span class="method-start">180986 ms</span>
+                <span class="method-start">106597 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">withdrawalTest(122545.0, 500.0, withdrawal testing, invalid)</span>
-                <span class="method-start">183386 ms</span>
+                <span class="method-start">108469 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">withdrawalTest(184459.0, -500.0, withdrawal testing, invalid)</span>
-                <span class="method-start">191630 ms</span>
+                <span class="method-start">112200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">206030 ms</span>
+                <span class="method-start">114820 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.FundTransferTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">206088 ms</span>
+                <span class="method-start">114882 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">accountSetup</span>
-                <span class="method-start">207929 ms</span>
+                <span class="method-start">116046 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184458.0, 184459.0, 50.0, fund trasfer1, valid)</span>
-                <span class="method-start">208208 ms</span>
+                <span class="method-start">118170 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184459.0, 184460.0, 100.0, fund trasfer2, valid)</span>
-                <span class="method-start">217758 ms</span>
+                <span class="method-start">121095 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184460.0, 184458.0, 20.0, fund trasfer3, valid)</span>
-                <span class="method-start">221363 ms</span>
+                <span class="method-start">124733 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184458.0, 184458.0, 800.0, fund trasfer4, invalid)</span>
-                <span class="method-start">225016 ms</span>
+                <span class="method-start">128067 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184460.0, , 890.0, fund trasfer4, invalid)</span>
-                <span class="method-start">230632 ms</span>
+                <span class="method-start">129919 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(, 184459.0, 456.0, fund trasfer5, invalid)</span>
-                <span class="method-start">237732 ms</span>
+                <span class="method-start">133186 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184460.0, 184459.0, , fund trasfer6, invalid)</span>
-                <span class="method-start">240149 ms</span>
+                <span class="method-start">134411 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184460.0, 184459.0, 678.0, , invalid)</span>
-                <span class="method-start">242627 ms</span>
+                <span class="method-start">135427 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fundTransferTest(184458.0, 184459.0, 120000.0, fund trasfer7, invalid)</span>
-                <span class="method-start">245238 ms</span>
+                <span class="method-start">137298 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">251894 ms</span>
+                <span class="method-start">140881 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LogoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">252314 ms</span>
+                <span class="method-start">140941 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">logoutSetup</span>
-                <span class="method-start">258330 ms</span>
+                <span class="method-start">143280 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">logoutTest</span>
-                <span class="method-start">261377 ms</span>
+                <span class="method-start">145846 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">264318 ms</span>
+                <span class="method-start">147339 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
