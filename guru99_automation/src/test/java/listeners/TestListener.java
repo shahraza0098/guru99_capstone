@@ -66,8 +66,7 @@ public class TestListener implements ITestListener {
                             result.getMethod()
                                     .getMethodName());
 
-            test.get().addScreenCaptureFromPath(
-                    screenshotPath);
+            test.get().addScreenCaptureFromPath(screenshotPath);
 
         } catch (Exception e) {
 

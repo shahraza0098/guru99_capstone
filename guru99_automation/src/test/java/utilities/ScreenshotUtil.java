@@ -12,21 +12,13 @@ public class ScreenshotUtil {
             WebDriver driver,
             String testName) {
 
-        String path =
-                "screenshots/"
-                + testName
-                + "_"
-                + System.currentTimeMillis()
-                + ".png";
+        String path ="screenshots/"+ testName + "_"+ System.currentTimeMillis() + ".png";
 
-        File src =
-                ((TakesScreenshot) driver)
-                .getScreenshotAs(OutputType.FILE);
+        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
         try {
 
-            FileUtils.copyFile(src,
-                    new File(path));
+            FileUtils.copyFile(src,new File(path));
 
         } catch (IOException e) {
 

@@ -40,13 +40,13 @@ public class ExcelUtil {
         for (int i = 1; i <= rows; i++) {
             Row row = sheet.getRow(i);
 
-            // Skip null rows (e.g. trailing empty rows in Excel)
+            // Skip null rows 
             if (row == null) continue;
 
             for (int j = 0; j < cols; j++) {
                 Cell cell = row.getCell(j);
 
-                // Return empty string instead of crashing on null cell
+                // Return empty string 
                 data[i - 1][j] = (cell == null) ? "" : cell.toString();
             }
         }
@@ -54,7 +54,7 @@ public class ExcelUtil {
     }
     
     
-    //to write data in excel:
+    //to write data in excel
     public void setCellData(int rowNum, int colNum, String value) {
 
         try {

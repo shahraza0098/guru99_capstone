@@ -9,6 +9,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import pages.LoginPage;
+import utilities.ConfigReader;
 
 public class BaseTest {
 
@@ -22,7 +23,7 @@ public class BaseTest {
 
         driver = DriverFactory.initDriver(browser);
 
-        driver.get("https://demo.guru99.com/V4/");
+        driver.get(ConfigReader.getProperty("url"));
         
 
         loginPage = new LoginPage(driver);
